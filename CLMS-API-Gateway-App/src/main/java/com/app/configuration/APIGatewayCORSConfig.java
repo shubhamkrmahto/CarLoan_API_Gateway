@@ -8,7 +8,7 @@ import org.springframework.web.cors.reactive.UrlBasedCorsConfigurationSource;
 @Configuration
 public class APIGatewayCORSConfig {
 
-	   @Bean
+		@Bean
 	    public CorsWebFilter corsWebFilter() {
 	        CorsConfiguration config = new CorsConfiguration();
 	        config.setAllowCredentials(true); // if using cookies/auth headers
